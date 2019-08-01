@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+$primary-black: rgb(77,77,77);
+$secondary-black: lighten($primary-black, 10%);
+$tertiary-black: lighten($primary-black, 60%);
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: url('../../images/coffee.jpg') no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-color: rgba(0, 0, 0, .2);
+    background-position-y: 20%;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+
+#container {
+        padding: 10px;
+        width:95%;
+        overflow: hidden;
+        margin: 15px auto;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+        font-size: .6em;
+        color: $secondary-black;
+        border-radius: 20px;
+        background-color: white;
+
+}
+.input {
+    width: 100vw;
+    border: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #7678a6
+    // text-decoration: underline
+}
+
+.query {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        width:95%;
+        margin: 15px auto;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+
+}
+
+.container {
+ 
+        padding: 10px;
+        width:95%;
+        margin: 15px auto;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+        
+}
+
+.images {
+   width: 260px;
+   height: auto;
+ 
+   border-radius: 20px;
+}
+
