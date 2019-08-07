@@ -10,6 +10,8 @@ export const setNewLocation = (newLocation) => ({
     payload: newLocation
 })
 
+
+
 export const fetchShopsFailure = () => ({
   type: types.FETCH_SHOPS_FAILURE,
   payload: { error }

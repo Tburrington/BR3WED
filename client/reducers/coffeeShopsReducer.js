@@ -3,7 +3,8 @@ import * as types from "../actions/actionTypes";
 
 const initialState = {
     CoffeeShopList: [],
-    location: ''
+    location: '',
+
 }
 
 const coffeeShopsReducer = (state = initialState, action) => {
@@ -28,6 +29,7 @@ const coffeeShopsReducer = (state = initialState, action) => {
             CoffeeShopList: action.payload,
             location: ''
         };
+
 
         case types.FETCH_SHOPS_FAILURE:
 
