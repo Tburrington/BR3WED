@@ -1,5 +1,4 @@
-import React, { useCallback } from "react";
-
+import React from "react";
 import CoffeeShop from "./CoffeeShopsCards.jsx";
 import CoffeeShopQuery from "./CoffeeShopQuery.jsx";
 import { connect } from "react-redux";

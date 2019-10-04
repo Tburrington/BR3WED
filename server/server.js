@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/home/:location', yelpController.getCoffeeShops, (req, res) => {
-    // console.log(res.locals.coffeeShops);
+
 
 
     res.status(200).json(res.locals.coffeeShops);

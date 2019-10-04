@@ -1,14 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import IconButton from '@material-ui/core/IconButton'
-import SvgIcon from '@material-ui/icons';
-import { useState } from 'react';
-import { blueGrey, green, yellow, blue} from '@material-ui/core/colors';
-// import { blueGrey } from '@material-ui/core/colors';
+
 const CoffeeShop = (props) => {
-    // const [color, setColor] = useState({color: black});
-
-
     return (
       
         <div className="cafeContainer">
