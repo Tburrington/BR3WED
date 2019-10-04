@@ -14,4 +14,4 @@ Landing Page for BR3WED:
 Once you submit a search the page updates with a pattern of cards representing restaraunts. 
 ![Home Page Search](/markdownimages/detailspage.png)
 
-T
+
